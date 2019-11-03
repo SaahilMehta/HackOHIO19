@@ -54,7 +54,6 @@ class Creator(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(40))
     total_score = db.Column(db.Integer)
-    name = db.Column(db.String(40))
     password_hash = db.Column(db.String(40))
 
 class PinSchema(ma.ModelSchema):
